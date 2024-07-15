@@ -1,1 +1,1 @@
-This repo contain my web development practice files
+This repo contains my web development practice files.
