@@ -5,7 +5,3 @@ body {
 h1 {
     text-align: center;
 }
-* {
-    outline: 2px solid red;
-    box-sizing: border-box;
-}
