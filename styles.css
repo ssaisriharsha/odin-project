@@ -1,0 +1,66 @@
+.main-div {
+    background-color: greenyellow;
+}
+
+.flex-container {
+    display: flex;
+    border: 5px solid blue;
+    padding: 20px;
+    background-color: aqua;
+    margin: 8px;
+    gap: 8px;
+}
+
+.flex-container div {
+    background-color: papayawhip;
+    border: 5px solid peachpuff;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+    padding-left: 8px;
+    height: 50px;
+    flex: 1;
+}
+
+.flex-container .item2 {
+    display: flex;
+    gap: 8px;
+}
+
+.flex-container-2 div {
+    border: 5px solid red;
+    background-color: pink;
+    padding-bottom: 0px;
+    height: 30px;
+    flex: 1;
+}
+
+.flex-container-3 {
+    margin: 8px;
+    display: flex;
+    gap: 8px;
+}
+
+.flex-container-3 div {
+    height: 400px;
+    flex: 1;
+    background-color: pink;
+    border: 5px solid brown;
+}
+
+.flex-container-3 .item6 {
+    flex: 1.5;
+}
+
+.flex-container-3 .item7 {
+    border: none;
+    background-color: greenyellow;
+}
+
+.item7 div {
+    height: 191px;
+}
+
+.item7 .item8 {
+    margin-bottom: 8px;
+}
