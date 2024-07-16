@@ -1,0 +1,16 @@
+.content {
+    background-color: black;
+    color: white;
+}
+
+.page-heading {
+    text-align: center;
+}
+
+.concept-heading {
+    text-decoration: underline;
+}
+
+* {
+    box-sizing: border-box;
+}

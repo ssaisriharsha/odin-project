@@ -1,0 +1,14 @@
+.intro {
+    display: inline-block;
+    background-color: aqua;
+}
+
+.main-content {
+    display: inline-block;
+    background-color: aquamarine;
+}
+
+.contact-us {
+    display: inline-block;
+    background-color: cadetblue;
+}

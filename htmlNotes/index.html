@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>HTML notes</title>
+        <meta charset="utf-8">
+        <link href="styling.css" rel="stylesheet">
+    </head>
+    <body class="content">
+        <h1 class="page-heading">HTML basics</h1>
+        <h2 class="concept-heading">Doctype declaration</h2>
+        <p>
+            <b>HTML</b> stands for <b>hyper text markup language</b>. Every html doc starts with a doctype declaration.
+            The doctype declaration tells the browser which version of html to use. Latest version is html5
+            and to use it, we simply type DOCTYPE html as shown below.
+            <br><br>
+            <code><b>&lt;!DOCTYPE html&gt;</b></code>
+        </p>
+        <h2 class="concept-heading">Html, head and body tags</h2>
+        <p>
+            The <b>html</b> tag is used to tell the browser that the <b>following document is html document</b>. html tag can
+            have lang attribute which specifies the language used to display the webpage. Although lang is an
+            optional attribute, using it allows screen readers to recognize the language and give correct 
+            pronounciation.
+            <br><br>
+            The <b>head</b> tag contains the <b>information about the page</b>. It contains the title of the webpage, charset 
+            used etc.
+            <br><br>
+            The <b>body</b> element contain the <b>information to be displayed</b> in the webpage.
+            <br><br>
+            The basic structure of the webpage is as follows.
+        </p>
+        <img src="assets/img1.png" alt="Image of code displaying the usage of html head and body tags" class="image">
+        <h2 class="concept-heading">Paragraphs, headings, links and images</h3>
+        <p>
+            To write a paragraph we use <b>&lt;p&gt;paragraph&lt;/p&gt;</b>. To go to next line, we use <b>&lt;br&gt;</b> tag.
+            the linebreak tag is a self closing tag. It doesn't require a closing tag.
+            <br><br>
+            Coming to headings, there are <b>six</b> types of headings ranging from <b>&lt;h1&gt; to &lt;h6&gt;</b>. The size
+            decreases as we go from h1 to h6.
+            <br><br>
+            To embed a link, we use anchor element <b>&lt;a&gt;</b> it takes <b>href</b> as attribute which stands for <b>hypertext reference.</b>
+            The <b>link</b> to be opened is contained in <b>href</b> attribute. If we want to <b>open the webpage in newtab</b> then we set the 
+            <b>target</b> attribute to <b>"_blank"</b> and then set the <b>rel</b> attribute to <b>"noopener noreferrer"</b>.
+            <br><br>
+            To embed images, we use <b>&lt;img&gt;</b> tag. It is a self closing tag. The <b>location</b> of the image is specified using <b>src</b> 
+            attribute. The location can be local or remote. To provide <b>alternate text</b> we use <b>alt</b> attribute.
+            <br><br>
+            The following image demonstrates the above concepts      
+        </p>
+        <img src="assets/img2.png" alt="Paragraphs, headings, links and images" class="image">  
+        <h2 class="concept-heading">Ordered and Unordered lists</h2>
+        <p>
+            To create a <b>ordered list</b>, we use <b>ol</b> opening and closing tags. The <b>list elements</b> are created using <b>li</b> opening 
+            and closing tag. To create <b>Unordered list</b>, we use <b>ul</b> opening and closing tags.
+        </p>
+        <img src="assets/img3.png" alt="Ordered and Unordered lists" class="image">   
+    </body>
+</html>
