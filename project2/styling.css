@@ -69,3 +69,25 @@
     flex-direction: column;
     align-items: center;
 }
+
+.choice-img {
+    width: 150px;
+    height: 150px;
+}
+
+.choice-container {
+    display: flex;
+    height: 304px;
+    justify-content: center;
+    align-items: center;
+    gap: 85px;
+}
+
+.choice-item {
+    border: 5px solid gray;
+    border-radius: 5px;
+}
+
+.choice-item:hover {
+    cursor:pointer;
+}
