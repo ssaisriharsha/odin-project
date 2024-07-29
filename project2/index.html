@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link href="./styling.css" rel="stylesheet">        
-        <title>Rock, paper, scissors</title>
+        <title>Page</title>
         <meta charset="utf-8">
+        <link href="styling.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Teko:wght@300..700&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h1 class="score">Round</h2>
-        <div class="score-container">
-            <div>
-                <span class="user-score-text">User</span>
-                <div class="user-score"></div>
+        <div class="main-page">
+            <div class="round-number-container">
+                <div class="round-number">Round</div>
             </div>
-            <div>
-                <span class="computer-score-text">Computer</span>
-                <div class="computer-score"></div>
+            <div class="score-container">
+                <div class="user-score-container score-container-item">
+                    <div class="player-text"></div>
+                    <div class="user-choice"></div>
+                    <div class="score-text"></div>
+                </div>
+                <div class="computer-score-container score-container-item">
+                    <div class="player-text">Computer</div>
+                    <div class="computer-choice"></div>
+                    <div class="score-text">score</div>
+                </div>
             </div>
         </div>
     </body>
