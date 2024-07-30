@@ -59,9 +59,9 @@
     width: 250px;
     height: 250px;
     border-radius: 5px;
-    background-color: grey;
+    background-color: gray;
     border: 5px solid grey;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 .user-score,.computer-score {
@@ -90,4 +90,9 @@
 
 .choice-item:hover {
     cursor:pointer;
+}
+
+.display-image {
+    width: 250px;
+    height: 250px;
 }
