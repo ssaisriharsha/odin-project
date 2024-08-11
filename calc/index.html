@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Calculator</title>
+    <meta charset="UTF-8" />
+    <script src="./script.js" defer></script>
+    <link href="./styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Kalnia+Glaze:wght@100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Teko:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <div class="main-container">
+      <div class="heading-container main-container-item">
+        <div class="heading">Calculator</div>
+      </div>
+      <div class="textbox-container main-container-item">
+        <div class="number1-container textbox-container-item">
+            <label for="numberbox" class="numbertext">Number 1*</label><br>
+            <input type="number" class="numberbox" name="numberbox" placeholder="Enter first number:" required>
+        </div>
+        <div class="operator textbox-container-item">
+            <br><label for="operatorbox" class="operatortext">Operator*</label><br>
+            <input type="text" class="operatorbox" name="operatorbox" placeholder="Supported operators(+, -, *, /)" required>
+        </div>
+        <div class="number2-container textbox-container-item">
+            <br><label for="numberbox" class="numbertext">Number 2*</label><br>
+            <input type="number" class="numberbox" name="numberbox" placeholder="Enter second number:" required>
+        </div>
+      </div>
+      <div class="calculate-container main-container-item">
+        <button class="calculate">Calculate</button>
+    </div>
+    </div>
+  </body>
+</html>

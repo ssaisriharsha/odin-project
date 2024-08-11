@@ -1,0 +1,63 @@
+body {
+    background-color: #111827;
+    color: #fff;
+    font-family: "Roboto";
+    font-style: normal;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.heading {
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.numbertext, .operatortext {
+    display: block;
+}
+
+.main-container-item {
+    flex: 1 1 auto;
+}
+
+.heading-container {
+    display:flex;
+    align-items: center;
+}
+
+.numberbox, .operatorbox {
+    background-color: #111827;
+    border: 2px solid #27375a;
+    border-radius: 2vh 1vw;
+    height: 5vh;
+    width: 45vw;
+    color: #fff;
+}
+
+.calculate {
+    display: block;
+    /* margin: 3vh 0vw; */
+    height: 4vh;
+    width: 12vh;
+    border: 2px solid #27375a;
+    background-color: #111827;
+    color: #fff;
+    border-radius: 5px;
+    transition-timing-function: cubic-bezier();
+    transition-duration: 0.4s;
+}
+
+.calculate:hover {
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+    color:black;
+    transform: scale(1.05);             
+}
