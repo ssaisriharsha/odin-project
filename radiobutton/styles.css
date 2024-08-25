@@ -1,0 +1,24 @@
+.outer {
+    width: 3vw;
+    height: 2vh;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    transition-duration: 250ms;
+}
+
+.inner {
+    background-color: #fff;
+    width: 1vw;
+    height: 1.5vh;
+    border-radius: 10px;
+}
+
+.outertoggled {
+    transition-duration: 250ms;
+    background-color: aquamarine;
+    justify-content: flex-end;
+}
+

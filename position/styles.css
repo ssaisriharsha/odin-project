@@ -1,0 +1,27 @@
+    body {
+        background: linear-gradient(180deg, rgb(166, 255, 0), rgb(0, 255, 238));
+    }
+
+.parent {
+    position: relative;
+    height: 1000px;
+}
+
+.parent > * {
+    display: inline-block;
+    position: relative;
+}
+.box-one {
+    border: 100px solid red;
+    position: fixed;
+    top: 100px;
+    left: 300px;
+}
+
+.box-two {
+    border: 100px solid green;
+}
+
+.box-three {
+    border: 100px solid rgb(0, 255, 170);
+}
