@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="heading-card-container">
+        <div class="heading-card">
+            <div class="heading">Speaker submission</div>
+            <div class="heading-text">Want to speak at our fake confrence?</div>
+            <div class="heading-text">Fill out this form</div>
+        </div>
+    </div>
+    <br>
+    <div class="form-container">
+        <div class="form-card">
+            <form action="https://" method="post">
+                <ul>
+                    <li>
+                        <label for="name">Name:</label>
+                        <input id="name" type="text" name="name" required>
+                    </li>
+                    <li>
+                        <label for="email">Email:</label>
+                        <input id="email" name="email" type="email" required>
+                    </li>
+                    <li>
+                        <label>Type of talk</label>
+                        <input id="main-stage" name="talk-type" type="radio" required value="">
+                        <label for="main-stage">Main Stage</label>
+                        <input id="workshop" name="workshop" type="radio" required>
+                        <label for="workshop">Workshop</label> 
+                    </li>
+                    <li>
+                        <label for="t-shirt-size">T shirt size:</label>
+                        <select name="size">
+                            <option value="XS">XS</option>
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                            <option value="XL">XL</option>
+                            <otpion value="XXL">XXL</otpion>
+                        </select>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

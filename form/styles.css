@@ -1,0 +1,31 @@
+.card-container {
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    background-image: url("./assets/pic.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 25vw;
+    height: 75vh;
+    border-radius: 5px;
+    background-color: white;
+}
+
+textarea {
+    max-width: 24.7vw;
+}
+
+button {
+    background: linear-gradient(121deg, rgba(1,53,118,1) 0%, rgba(79,204,249,1) 50%, rgba(196,239,255,1) 100%);
+}
+
+label, input, button, select {
+    display: block;
+}
