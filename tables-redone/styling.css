@@ -1,0 +1,5 @@
+article p:first-child::first-line {
+    font-weight: bold;
+    font-size: 120%;
+}
+

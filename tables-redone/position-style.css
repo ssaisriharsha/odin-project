@@ -1,0 +1,42 @@
+.container {
+    width: 100vw;
+    background-color: aqua;
+    
+}
+
+.container > div {
+    width: 25dvw;
+    height: 25dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stc {
+    background-color: aliceblue;
+}
+
+.abs {
+    background-color: rgb(24, 178, 135);
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+}
+
+.rel {
+    background-color: rgb(190, 35, 156);
+    position: relative;
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+}
+
+.fix {
+    background-color: rgb(158, 223, 29);
+    position: fixed;
+}
+
+.stk {
+    background-color: rgb(226, 123, 19);
+    position: sticky;
+}
