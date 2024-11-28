@@ -61,7 +61,7 @@
 .form-card {
     background-color: #FEFEFF;
     /* height: 60%; */
-    box-shadow: 1px 1px 1px 0px black;
+    /* box-shadow: 1px 1px 1px 0px black; */
 }
 
 .form-card > * {
@@ -76,8 +76,63 @@
 .field-item {
     display: flex;
     flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .field-item > input {
-    /* width: 150%; */
+    width: 50%;
+    height: 30px;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid;
+    transition: border-color 250ms ease;
+}
+
+
+.fields-container {
+    display: flex;
+    /* margin-right: 50px; */
+    font-weight: bold;
+    color: rgb(112, 108, 108);
+    font-family: "Roboto Condensed";
+}
+
+.fieldset1, .fieldset2 {
+    flex: 1;
+}
+
+input:focus {
+    border-color:blue
+}
+
+.submit {
+    height: 40px;
+    width: 190px;
+    background-color: #596C49;
+    color: white;
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.submit:hover {
+    cursor:pointer;
+}
+
+a {
+    font-weight: bold;
+}
+
+a:link, a:visited {
+    color: #596C49;
+}
+
+input:valid {
+    border-color: green;
+}
+
+input:invalid {
+    border-color: red;
 }

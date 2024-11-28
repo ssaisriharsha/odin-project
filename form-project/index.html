@@ -7,6 +7,9 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Parkinsans:wght@300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="main-container">
@@ -31,32 +34,40 @@
                         <form action="https://www.google.com" method="post">
                             <br>
                             <h2>Let's do this!</h2>
-                            <div class="fields">
-                                <div class="field-item">
-                                    <label for="first-name">FIRST NAME</label>
-                                    <input id="first-name" name="first-name" type="text">
+                            <div class="fields-container">
+                                <div class="fieldset1">
+                                    <div class="field-item">
+                                        <label for="first-name">FIRST NAME</label>
+                                        <input id="first-name" name="first-name" type="text" minlength="3" maxlength="75">
+                                    </div>
+                                    <div class="field-item">
+                                        <label for="email">EMAIL*</label>
+                                        <input id="email" name="email" type="email" required minlength="3" maxlength="75">
+                                    </div>
+                                    <div class="field-item">
+                                        <label for="password">PASSWORD*</label>
+                                        <input id="password" name="password" type="password" required minlength="8">
+                                    </div>
                                 </div>
-                                <div class="field-item">
-                                    <label for="last-name">LAST NAME</label>
-                                    <input id="last-name" name="last-name" type="text">
-                                </div>
-                                <div class="field-item">
-                                    <label for="first-name">FIRST NAME</label>
-                                    <input id="first-name" name="first-name" type="text">
-                                </div>
-                                <div class="field-item">
-                                    <label for="last-name">LAST NAME</label>
-                                    <input id="last-name" name="last-name" type="text">
-                                </div>
-                                <div class="field-item">
-                                    <label for="first-name">FIRST NAME</label>
-                                    <input id="first-name" name="first-name" type="text">
-                                </div>
-                                <div class="field-item">
-                                    <label for="last-name">LAST NAME</label>
-                                    <input id="last-name" name="last-name" type="text">
+                                <div class="fieldset2">
+                                    <div class="field-item">
+                                        <label for="last-name">LAST NAME</label>
+                                        <input id="last-name" name="last-name" type="text" minlength="3" maxlength="75">
+                                    </div>
+                                    <div class="field-item">
+                                        <label for="phone-number">PHONE NUMBER*</label>
+                                        <input id="phone-number" name="phone-number" type="number" required minlength="10" maxlength="10">
+                                    </div>
+                                    <div class="field-item">
+                                        <label for="confirm-password">CONFIRM PASSWORD*</label>
+                                        <input id="confirm-password" name="confirm-password" type="password" required minlength="8">
+                                    </div>
                                 </div>
                             </div>
+                            <br>
+                            <button type="submit" class="submit">Create Account</button>
+                            <p>Already have an account? <a href="https://accounts.google.com/">Log In</a></p>
+                            <br>
                         </form>
                     </div>
                 </div>
