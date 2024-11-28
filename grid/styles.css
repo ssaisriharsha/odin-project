@@ -1,0 +1,14 @@
+.grid-container{
+    display: grid;
+    grid-template: 50px 50px / 50px 50px 50px;
+    grid-auto-rows: 50px;
+    gap: 5px;
+    /* border: 2px solid black; */
+}
+
+.grid-container > .grid-item {
+    overflow:auto;
+    /* border: 2px solid black; */
+    
+    /* overflow-wrap: break-word; */
+}
