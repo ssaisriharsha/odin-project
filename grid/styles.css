@@ -8,7 +8,7 @@
 
 .grid-container > .grid-item {
     overflow:auto;
-    /* border: 2px solid black; */
+    border: 2px solid black;
     
     /* overflow-wrap: break-word; */
 }
