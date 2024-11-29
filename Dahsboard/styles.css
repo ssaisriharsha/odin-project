@@ -27,9 +27,28 @@
     display: flex;
     align-items: center;
     font-size: 1.5rem;
+    margin-bottom: 40px;
 }
 
 .dashboard-item {
     display: flex;
     align-items: center;
+}
+
+.navlist {
+    list-style: none;
+    margin: none;
+    padding: 0px;
+}
+
+.navlist > .list-element > img {
+    width: 35px;
+    padding-right: 8px;
+}
+
+.navlist > .list-element {
+    display: flex;
+    align-items: center;
+    margin: 8px;
+    padding-bottom: 8px;
 }
