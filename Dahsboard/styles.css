@@ -28,6 +28,12 @@
     align-items: center;
     font-size: 1.5rem;
     margin-bottom: 40px;
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+}
+
+.dashboard:hover {
+    text-decoration: underline;
 }
 
 .dashboard-item {
@@ -50,5 +56,19 @@
     display: flex;
     align-items: center;
     margin: 8px;
+    padding-top:8px;
     padding-bottom: 8px;
+    transition:all 250ms ease-in-out;
+    border-radius: 5px;
+}
+
+.list-element:hover {
+    transform: scale(1.1);
+    background-color: rgba(0, 0, 0, 0.3);
+    cursor:pointer;
+    text-decoration: underline;
+}
+
+.list-element:active {
+    transform: scale(1);
 }
