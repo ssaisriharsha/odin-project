@@ -1,0 +1,40 @@
+.note-container {
+    grid-area: 1 / 1 / 11 / 8;
+    padding-right: 8px;
+}
+
+.side-content-container {
+    grid-area: 1 / 8 / 11 / 11;
+    padding-left: 8px;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.announcement-container {
+    flex: 1;
+    height: 50%;
+}
+
+.announcement-container > h3 {
+    margin-top: 0;
+}
+
+.trending-container {
+    flex: 1;
+}
+
+.announcements-card {
+    background-color:whitesmoke;
+    width: 100%;
+    border-radius: 10px;
+    padding:10px 10px 10px 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 80%;
+}
+
+.announcement {
+    overflow-wrap: anywhere;
+    text-wrap: wrap;
+}

@@ -8,6 +8,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Parkinsans:wght@300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./style2.css">
     </head>
     <body>
         <div class="page-container">
@@ -60,17 +61,67 @@
             </div>
             <header class="header">
                 <div class="menu">
-                    <label for="search-box">
-                        <img src="./assets/search.svg" alt="search" class="search-icon" width="30px">
-                    </label>
-                    <input name="search-box" id="search-box" type="text">
-                    <img src="./assets/bell.svg" alt="bell" class="bell-icon" width="30px">
-                    <img src="./assets/user.png" alt="user" class="user" width="50px">
-                    <h3>Harsha</h3>
+                    <div class="menu-container-1">
+                        <label for="search-box">
+                            <img src="./assets/search.svg" alt="search" class="search-icon" width="30px">
+                        </label>
+                        <input name="search-box" id="search-box" type="text">
+                    </div>
+                    
+                    <div class="menu-container-2">
+                        <img src="./assets/bell.svg" alt="bell" class="bell-icon" width="30px">
+                        <img src="./assets/user.png" alt="user" class="user" width="50px">
+                        <h3>Harsha</h3>
+                    </div>
                 </div>
-                <div class="greeting"></div>
+                <div class="greeting">
+                    <div class="welcome-container">
+                        <img src="./assets/user.png" alt="profile" class="profile-pic" height="75px">
+                        <div class="username">
+                            <h5>Hi, there</h5>
+                            <h3>Harsha (@Harsha)</h3>
+                        </div>
+                    </div>
+                    <div class="action-container">
+                        <button type="generic" class="new action-button">New</button>
+                        <button type="generic" class="new action-button">Upload</button>
+                        <button type="generic" class="new action-button">Share</button>
+                    </div>
+                </div>
             </header>
-            <div class="main-content"></div>
+            <div class="main-content">
+                <section class="note-container"></section>
+                <aside class="side-content-container">
+                    <div class="announcement-container">
+                        <h3>Announcements</h3>
+                        <div class="announcements-card">
+                            <div class="announcement">
+                                <h4>Site maintainance</h4>
+                                <div>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas tempora repellendus minus ratione et provident expedita culpa vero autem deleniti fugiat cum, excepturi quis beatae reprehenderit accusamus qui itaque sint?
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="announcement">
+                                <h4>Site maintainance</h4>
+                                <div>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas tempora repellendus minus ratione et provident expedita culpa vero autem deleniti fugiat cum, excepturi quis beatae reprehenderit accusamus qui itaque sint?
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="announcement">
+                                <h4>Site maintainance</h4>
+                                <div>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas tempora repellendus minus ratione et provident expedita culpa vero autem deleniti fugiat cum, excepturi quis beatae reprehenderit accusamus qui itaque sint?
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trending-container">
+                        <h3>Trending</h3>
+                    </div>
+                </aside>
+            </div>
         </div>
     </body>
 </html>

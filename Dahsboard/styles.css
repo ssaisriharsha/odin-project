@@ -22,13 +22,16 @@
     padding-right: 32px;
     padding-left: 32px;
     padding-top: 16px;
-    padding-bottom: 16px;
     justify-content: center;
 }
 
 .main-content {
     background-color: #E3E8F1;
     grid-area: 3 / 4 / 11 / 21;
+    padding: 16px;
+    padding-bottom: 0px;
+    display:grid;
+    grid-template: repeat(10, 1fr) / repeat(10, 1fr);
 }
 
 .sidebar img {
@@ -92,7 +95,22 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    justify-content: space-evenly;
+    justify-content: space-between;
+}
+
+.menu-container-1 {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex: 2;
+}
+
+.menu-container-2 {
+    display:flex;
+    align-items: center;
+    gap: 40px;
+    flex: 1;
+    justify-content: flex-end;
 }
 
 #search-box {
@@ -100,7 +118,58 @@
     border: none;
     background-color: #E3E8F1;
     height: 35px;
-    width: 50%;
-    margin-left: 16px;
+    width: 100%;
     border-radius: 25px;
+    min-width: 75px;
+}
+
+.greeting > .welcome-container {
+    display: flex;
+    align-items: center;
+}
+
+.username {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.username > h3, .username > h5 {
+    margin: 0px;
+    margin-left: 16px;
+}
+
+.greeting {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8px;
+}
+
+.action-container {
+    display: flex;
+    gap: 50px;
+}
+
+.action-button {
+    background-color: #1892D5;
+    color: whitesmoke;
+    font-family: "Roboto";
+    font-weight: bold;
+    border: 0px;
+    width: 105px;
+    height: 35px;
+    border-radius: 25px;
+}
+
+.icon {
+    width:fit-content;
+    height:fit-content;
+    border: none;
+    border-radius: 30px;
+    background-color: whitesmoke;
+}
+
+.icon:hover {
+    background-color: rgba(0, 0, 0, 0.2);
 }
