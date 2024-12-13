@@ -1,5 +1,6 @@
 .page-container {
-    height: 100dvh;
+    position: relative;
+    /* height: 100dvh; */
     background-color: aqua;
     display: grid;
     grid-template: repeat(10, 1fr) / repeat(20, 1fr);
@@ -12,6 +13,8 @@
     grid-area: 1 / 1 / span 10 / span 3;
     font-weight: bold;
     color: white;
+    position: fixed;
+    height: 100%;
 }
 
 .header {
@@ -23,6 +26,7 @@
     padding-left: 32px;
     padding-top: 16px;
     justify-content: center;
+    position: sticky;
 }
 
 .main-content {
